@@ -11,6 +11,8 @@
 		7710B2B329934C8300088404 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7710B2B229934C8300088404 /* ContentView.swift */; };
 		7710B2B529934C8500088404 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7710B2B429934C8500088404 /* Assets.xcassets */; };
 		7710B2B829934C8500088404 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7710B2B729934C8500088404 /* Preview Assets.xcassets */; };
+		7710B2BF2993503700088404 /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7710B2BE2993503700088404 /* Repo.swift */; };
+		7710B2C12993504200088404 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7710B2C02993504200088404 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		7710B2B229934C8300088404 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7710B2B429934C8500088404 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7710B2B729934C8500088404 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7710B2BE2993503700088404 /* Repo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
+		7710B2C02993504200088404 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,7 @@
 			children = (
 				7710B2B029934C8300088404 /* GitHubClientApp.swift */,
 				7710B2B229934C8300088404 /* ContentView.swift */,
+				7710B2C22993509000088404 /* Models */,
 				7710B2B429934C8500088404 /* Assets.xcassets */,
 				7710B2B629934C8500088404 /* Preview Content */,
 			);
@@ -65,6 +70,15 @@
 				7710B2B729934C8500088404 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7710B2C22993509000088404 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7710B2C02993504200088404 /* User.swift */,
+				7710B2BE2993503700088404 /* Repo.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7710B2C12993504200088404 /* User.swift in Sources */,
+				7710B2BF2993503700088404 /* Repo.swift in Sources */,
 				7710B2B329934C8300088404 /* ContentView.swift in Sources */,
 				7710B2B129934C8300088404 /* GitHubClientApp.swift in Sources */,
 			);
